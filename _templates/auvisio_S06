@@ -15,5 +15,44 @@ unsupported: true
 ## Warning 
 Uses the WB3S module now, so no longer compatible with Tasmota.
 
+I didn't have any problems, Here the configuration after setup (June 2021):
+
+NX-4519-675
+IRBridge
+Program Version	9.5.0(ir)
+Build Date & Time	2021-06-17T08:26:51
+Core/SDK Version	2_7_4_9/2.2.2-dev(38a443e)
+Uptime	0T00:00:12
+Flash write Count	280 at 0xF7000
+Boot Count	263
+Restart Reason	Software/System restart
+	 
+AP1 SSId (RSSI)	MyNetwork (90%, -55 dBm) 11n
+Hostname	IRBridge
+MAC Address	XX:XX:XX:XX:XX:XX
+IP Address (wifi)	192.168.0.189
+	
+Gateway	192.168.0.1
+Subnet Mask	255.255.255.0
+DNS Server	192.168.0.1
+	 
+MQTT Host	192.168.0.43
+MQTT Port	1883
+MQTT User	openhab
+MQTT Client	IRBridge
+MQTT Topic	tasmota_%06X
+MQTT Group Topic 1	cmnd/tasmotas/
+MQTT Full Topic	cmnd/tasmota_8F28F8/
+MQTT Fallback Topic	cmnd/IRBridge_fb/
+MQTT No Retain	Disabled
+	 
+ESP Chip Id	9382136 (ESP8266EX)
+Flash Chip Id	0x1440C8
+Flash Size	1024 kB
+Program Flash Size	1024 kB
+Program Size	597 kB
+Free Program Space	404 kB
+Free Memory	27.2 kB
+
 ![](https://i.postimg.cc/HxWVNSNd/P-20190417-104747-1-p.jpg)
 ![](https://user-images.githubusercontent.com/5904370/56278820-3bf3a780-6107-11e9-9f53-eb3c198dffff.png)
